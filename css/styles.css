@@ -1,0 +1,152 @@
+.container {
+	margin: 0 auto;
+	width: 600px;
+	border-style: solid;
+	border-color: #d3d3d3;
+	border-width: 3px; 
+}
+
+.bodycontainer {
+	display: flex;
+}
+
+.banner {
+	background: #3d4f5b;
+
+}
+
+.banner>h1 {
+	margin: auto;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: center;
+	font-family: calibri;
+	font-weight: normal;
+	color: white;
+}
+
+.leftsidebar {
+	width: 30%;
+	background: linear-gradient(to right, #444444 , #6c6c6c);
+	font-family: calibri;
+	color: white;
+}
+
+.leftsidebar>div {
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 5%;
+}
+
+.catphoto {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.catphoto>img {
+	border-radius: 20px;
+	width: 120px;
+	height: 120px;
+}
+
+.catname {
+	border-bottom: solid;
+	border-width: 2px;
+	border-color: #ffff00;
+}
+
+.catname>span {
+	font-size: x-large;
+}
+
+.preferences>h3 {
+	text-decoration: underline;
+	text-align: center;
+}
+
+.preferences>div {
+	font-size: small;
+}
+
+#sahne {
+	width: 70%;
+	background: #ffa500;
+	border-radius: 3px;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+#milch {
+	width: 50%;
+	background: #0174df;
+	border-radius: 3px;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+#bear {
+	width: 100%;
+	background: #008000;
+	border-radius: 3px;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.contacts>h3 {
+	text-decoration: underline;
+	text-align: center;
+}
+
+.contacts>ul>li {
+	color: #00b3e0;
+	font-family: arial;
+	text-decoration: underline;
+}
+
+.workarea {
+	width: 70%;
+}
+
+.workarea>div {
+	border-bottom: solid;
+	border-width: 2px;
+	border-color: #0080ff;
+	font-family: calibri;
+	color: #084b8a;
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: 0.4;
+}
+
+.boldheader {
+	font-weight: bold;
+}
+
+/*.header2 {
+			color: darkblue;
+			font-family: arial;
+			text-decoration: overline;
+			text-transform: capitalize;
+		}
+
+.lorem {
+			color: gray;
+			font-family: monospace;
+			font-weight: bold;
+			font-style: italic;
+		}
+
+/*
+header color: #3d4f5b;
+sidebar color: #454545;
+headers font colors: #084b8a;
+
+text color: #084bad;
+blue underline color: #0080ff;
+borderline color: #d3d3d3;
+Котофей: #ffff00;
+сметанку: #ffa500;
+молочко: #0174df;
+пивасик: #008000;
+social links: #00bfff;
+*/
